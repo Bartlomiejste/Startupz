@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Circular Std';
+  src: local('Circular Std Medium'), local('Circular-Std-Medium'),
+    url('../../public/assets/Font/CircularStd-Medium.woff2') format('woff2'),
+    url('../../public/assets/Font/CircularStd-Medium.woff') format('woff'),
+    url('../../public/assets/Font/CircularStd-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+body,
+html {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: 'Circular Std', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #F08B62;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
