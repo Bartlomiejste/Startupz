@@ -7,7 +7,7 @@
  * @module *.bmp
  * @module *.tiff
 
-
+@module *.svg
 /**
  * @module *.scss
  * @typedef {Object.<string, string>} Styles

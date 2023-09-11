@@ -1,4 +1,4 @@
-const SMALL_MOBILE = 320; //420 było
+const SMALL_MOBILE = 320;
 const MOBILE = 600;
 const TABLET = 900;
 const LAPTOP = 1440;

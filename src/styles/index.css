@@ -13,6 +13,7 @@ html {
   min-height: 100vh;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 * {
@@ -27,15 +28,10 @@ html {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #000;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #F08B62;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #000;
 }

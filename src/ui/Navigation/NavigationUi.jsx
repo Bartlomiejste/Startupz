@@ -1,15 +1,15 @@
 import { styled } from "styled-components";
-import { T_DOWN } from "../../utils/viewport";
+import {T_DOWN} from "../../utils/viewport";
 
 export const NavigationContainer = styled.div`
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 150px;
-  width: 100vw;
+  width: 100%;
   padding: 0 20px;
-  
-  @media ${T_DOWN } {
+
+  @media ${T_DOWN} {
    flex-direction: column;
   }
 
@@ -19,20 +19,23 @@ export const Logo = styled.div`
   width: 199.486px;
   height: 47.848px;
   flex-shrink: 0;
+  margin-left: 120px;
 
-  @media ${T_DOWN } {
-   margin-top: 200px;
+  @media ${T_DOWN} {
+   margin-top: 50px;
+   margin-left: 0px;
    }
 
 `;
 
 export const ButtonsContainer = styled.div`
   display: flex;
-  gap: 20px;
+  margin-right:120px;
 
-  @media ${T_DOWN } {
+  @media ${T_DOWN} {
     margin-top: 50px;
     flex-direction: column;
+    margin-right: 0px;
    }
 
 `;

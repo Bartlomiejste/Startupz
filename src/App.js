@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ErrorBoundary from "./utils/ErrorBoundary";
-import MainPage from "./components/MainPage/MainPage";
+import MainPage from "./components/Main/Main";
 
 const App = () => {
   return (
