@@ -20,7 +20,7 @@ const stepsData = [
         <AboutInformation>
             <AboutTitle>Who we are</AboutTitle>
             <AboutPicture>
-                <img src="./assets/img/AboutUs/QuestionMark.svg" alt="Question mark picture" />
+                <img src="./global/img/AboutUs/QuestionMark.png" alt="Question mark" />
             </AboutPicture>
         </AboutInformation>
 

@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Circular Std';
   src: local('Circular Std Medium'), local('Circular-Std-Medium'),
-    url('../../public/assets/Font/CircularStd-Medium.woff2') format('woff2'),
-    url('../../public/assets/Font/CircularStd-Medium.woff') format('woff'),
-    url('../../public/assets/Font/CircularStd-Medium.ttf') format('truetype');
+    url('../../public/global/Font/CircularStd-Medium.woff2') format('woff2'),
+    url('../../public/global/Font/CircularStd-Medium.woff') format('woff'),
+    url('../../public/global/Font/CircularStd-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
@@ -20,6 +20,16 @@ html {
   box-sizing: border-box;
   font-size: 1rem;
   font-family: 'Circular Std', sans-serif;
+}
+
+text {
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+
 }
 
 ::-webkit-scrollbar {

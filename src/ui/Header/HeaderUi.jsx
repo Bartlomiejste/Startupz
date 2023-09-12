@@ -69,6 +69,7 @@ export const Paragraph = styled.div`
   width: 130%;
 
   @media ${T_DOWN} {
+    letter-spacing: -0.8px;
     font-size: 12px;
     width: 90%;
   }

@@ -13,7 +13,7 @@ const Header = () => {
       </Typography>
       
       <Img>
-        <ImgPicture src="./assets/img/Header/headerImg.png" alt="Company logo" />
+        <ImgPicture src="./global/img/Header/headerImg.png" alt="Company logo" />
       </Img>
 
     </HeaderContainer>

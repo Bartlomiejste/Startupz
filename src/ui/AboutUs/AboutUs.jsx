@@ -1,5 +1,5 @@
 import { styled } from 'styled-components';
-import { M_DOWN,T_DOWN  } from '../../utils/viewport';
+import { L_UP,SL_DOWN,T_DOWN  } from '../../utils/viewport';
 
 
 export const AboutContainer = styled.div`
@@ -137,5 +137,16 @@ export const StepParagraph = styled.div`
         white-space: normal;
         margin: 0px;
     }
+
+    @media ${SL_DOWN} {
+        padding-right: 10px;
+        font-size: 16px;
+    }
+
+    @media ${L_UP} {
+        font-size: 30px;
+    }
+
+
 `;
 

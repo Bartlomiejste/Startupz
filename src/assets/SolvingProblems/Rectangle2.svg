@@ -1,0 +1,6 @@
+
+<svg width="114" height="113" viewBox="0 0 114 113" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="57" cy="57" r="47" fill="white"/>
+  <circle cx="57" cy="57" r="42" fill="#F5F5F5"/>
+  <image x="15" y="15" width="84" height="84" xlinkHref={Person} />
+</svg>

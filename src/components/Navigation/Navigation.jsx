@@ -11,7 +11,7 @@ const Navigation = () => {
   return (
     <NavigationContainer>
       <Logo>
-        <img src="./assets/Logo/logo.svg" alt="Company logo" />
+        <img src="./global/Logo/Logo.png" alt="Company Logo" />
       </Logo>
 
       <ButtonsContainer>
