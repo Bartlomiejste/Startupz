@@ -60,4 +60,5 @@ export const Button = styled.button`
   font-weight: 700;
   cursor: pointer;
   }
+  
 `;

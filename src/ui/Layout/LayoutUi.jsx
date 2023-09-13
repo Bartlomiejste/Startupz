@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { L_DOWN, SM_UP } from "../../utils/viewport";
+import {L_DOWN, SM_UP} from "../../utils/viewport";
 
 export const MainContainer = styled.div`
   width:100%;

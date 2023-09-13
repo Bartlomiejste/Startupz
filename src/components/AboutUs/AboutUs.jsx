@@ -1,7 +1,6 @@
 import React from 'react'
 import { AboutContainer, AboutInformation, AboutParagraph, AboutPicture, AboutSteps, AboutText, AboutTitle } from '../../ui/AboutUs/AboutUs';
-import Step from './Step';
-
+import Step from '../../utils/Step/Step';
 
 const AboutUs = () => {
 
@@ -33,7 +32,6 @@ const stepsData = [
         {stepsData.map((step, index) => (
           <Step key={index} title={step.title} description={step.description} customWidth={step.customWidth} customPadding={step.customPadding} dangerouslySetInnerHTML={{ __html: step.description }}/>
         ))}
-
         </AboutSteps>
 
     </AboutContainer>

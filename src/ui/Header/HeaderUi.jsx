@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import { T_DOWN } from "../../utils/viewport";
+import {T_DOWN} from "../../utils/viewport";
 
 export const HeaderContainer = styled.div`
   display: flex;
@@ -13,7 +13,7 @@ export const HeaderContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     margin-top: 150px;
-    padding-left: 0px;
+    padding: 0 10px;
    }
 `;
 
@@ -34,7 +34,6 @@ export const ImgPicture = styled.img`
    }
 `;
 
-
 export const Typography = styled.div`
   display:flex;
   flex-direction: column;
@@ -44,7 +43,7 @@ export const Typography = styled.div`
     text-align: center;
     align-items: center;
   }
-`
+`;
 export const Title = styled.div`
   color: #3D4F5C;
   font-size: 85px;
@@ -57,7 +56,7 @@ export const Title = styled.div`
   @media ${T_DOWN} {
     font-size: 32px;
   }
-`
+`;
 export const Paragraph = styled.div`
   color: var(--Primary-Orange, #FB8958);
   font-size: 24px;
@@ -73,7 +72,7 @@ export const Paragraph = styled.div`
     font-size: 12px;
     width: 90%;
   }
-`
+`;
 export const Button = styled.button`
   width: 157px;
   height: 45px;
@@ -94,4 +93,4 @@ export const Button = styled.button`
     width: 100px;
     height: 25px;
   }
-`
+`;
