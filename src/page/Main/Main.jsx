@@ -7,6 +7,8 @@ import SolvingProblems from '../../components/SolvingProblems/SolvingProblems';
 import { Values } from '../../components/Values/Values';
 import OurWorks from '../../components/OurWorks/OurWorks';
 import Hiring from '../../components/Hiring/Hiring';
+import FormMessage from '../../components/FormMessage/FormMessage';
+import Footer from '../../components/Footer/Footer';
 
 
 const Main = () => {
@@ -19,6 +21,8 @@ const Main = () => {
     <Values/>
     <OurWorks/>
     <Hiring/>
+    <FormMessage/>
+    <Footer/>
   </Layout>
   )
 }

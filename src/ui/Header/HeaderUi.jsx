@@ -15,6 +15,7 @@ export const HeaderContainer = styled.div`
     margin-top: 150px;
     padding: 0 10px;
    }
+   
 `;
 
 export const Img = styled.div`
@@ -24,6 +25,7 @@ export const Img = styled.div`
   @media ${T_DOWN} {
     align-self: center;
    }
+
 `;
 
 
@@ -32,6 +34,7 @@ export const ImgPicture = styled.img`
     margin-top: 25px;
     height: 200px;
    }
+
 `;
 
 export const Typography = styled.div`
@@ -43,7 +46,9 @@ export const Typography = styled.div`
     text-align: center;
     align-items: center;
   }
+
 `;
+
 export const Title = styled.div`
   color: #3D4F5C;
   font-size: 85px;
@@ -57,6 +62,7 @@ export const Title = styled.div`
     font-size: 32px;
   }
 `;
+
 export const Paragraph = styled.div`
   color: var(--Primary-Orange, #FB8958);
   font-size: 24px;
@@ -73,6 +79,7 @@ export const Paragraph = styled.div`
     width: 90%;
   }
 `;
+
 export const Button = styled.button`
   width: 157px;
   height: 45px;
@@ -89,8 +96,9 @@ export const Button = styled.button`
   cursor: pointer;
 
   @media ${T_DOWN} {
-    font-size: 12px;
-    width: 100px;
+    width: 150px;
     height: 25px;
-  }
+    font-size: 12px;
+}
+
 `;

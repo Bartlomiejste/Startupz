@@ -71,10 +71,11 @@ export const SquareButton = styled.button`
   margin-bottom: 50px;
 
   @media ${T_DOWN} {
-    width: 80px;
-    height: 20px;
+    width: 90px;
+    height: 35px;
     font-size: 12px;
     margin: 20px 0;
 }
+
 
 `;
