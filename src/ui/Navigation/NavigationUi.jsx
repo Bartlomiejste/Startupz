@@ -15,7 +15,10 @@ export const NavigationContainer = styled.div`
 
 `;
 
-export const Logo = styled.div`
+export const LogoImg = styled.img`
+`;
+
+export const LogoContainer = styled.div`
   width: 199.486px;
   height: 47.848px;
   flex-shrink: 0;
@@ -60,5 +63,4 @@ export const Button = styled.button`
   font-weight: 700;
   cursor: pointer;
   }
-  
 `;

@@ -1,6 +1,7 @@
 import React from 'react'
-import { AboutContainer, AboutInformation, AboutParagraph, AboutPicture, AboutSteps, AboutText, AboutTitle } from '../../ui/AboutUs/AboutUs';
+import { AboutContainer, AboutInformation, AboutParagraph, AboutPicture, AboutSteps, AboutText, AboutTitle, ImgPicture } from '../../ui/AboutUs/AboutUs';
 import Step from '../../utils/Step/Step';
+import QuestionMark from '../../assets/AboutUs/QuestionMark.png';
 
 const AboutUs = () => {
 
@@ -19,7 +20,7 @@ const stepsData = [
         <AboutInformation>
             <AboutTitle>Who we are</AboutTitle>
             <AboutPicture>
-                <img src="./global/img/AboutUs/QuestionMark.png" alt="Question mark" />
+                <ImgPicture src={QuestionMark} alt="Question mark" />
             </AboutPicture>
         </AboutInformation>
 

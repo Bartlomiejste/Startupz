@@ -1,6 +1,6 @@
 import React from 'react'
-import { Button, HeaderContainer, Img, ImgPicture, Paragraph, Title, Typography } from '../../ui/Header/HeaderUi';
-
+import { Button, HeaderContainer, HeaderImg, ImgPicture, Paragraph, Title, Typography } from '../../ui/Header/HeaderUi';
+import HeaderPicture from '../../assets/Header/HeaderPicture.png';
 
 const Header = () => {
   return (
@@ -12,9 +12,9 @@ const Header = () => {
         <Button>See our works</Button>
       </Typography>
       
-      <Img>
-        <ImgPicture src="./global/img/Header/headerImg.png" alt="Company logo" />
-      </Img>
+      <HeaderImg>
+        <ImgPicture src={HeaderPicture} alt="Company logo" />
+      </HeaderImg>
 
     </HeaderContainer>
   )

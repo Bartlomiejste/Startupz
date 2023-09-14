@@ -1,75 +1,52 @@
 import React from 'react'
-import { styled } from 'styled-components'
 import Logo from '../../assets/Footer/Logo.png';
-
-const FooterContainer = styled.div`
-    padding: 91px 136px 123px 121px;
-    background: pink;
-`;
-
-const FooterCopyRight = styled.div`
-`;
-
-const FooterCopyRightParagraph = styled.div`
-color: #939393;
-font-family: Circular Std;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-`;
-
-const FooterCompanies = styled.div`
-`;
-const FooterContact = styled.div`
-`;
-const FooterFollowUs = styled.div`
-`;
-const ImgContainer = styled.div`
-`;
-const FooterContainerImg = styled.img`
-`;
-const Title = styled.div`
-`;
-const ContactParagraph = styled.p`
-`;
-const ContactSend = styled.p`
-`;
-const FollowMedia = styled.div`
-`;
-const CompaniesTitle = styled.div`
-`;
-
-
-
+import Twitter from '../../assets/Footer/Twitter.png';
+import Linkedin from '../../assets/Footer/Linkedin.png';
+import Instagram from '../../assets/Footer/Instagram.png';
+import { FooterCompaniesTitle, FooterContact, FooterContactParagraph, FooterContainer, FooterContainerImg, FooterCopyRight, FooterCopyRightImg, FooterCopyRightParagraph, FooterImg, FooterInformation, FooterSocialMedia, FooterWrapper, Title } from '../../ui/Footer/Footer';
 
 const Footer = () => {
+
+    const handleFooterImgClick = () => {
+        window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+      };
+
   return (
     <FooterContainer>
         <FooterCopyRight>
-            <ImgContainer>
-                <FooterContainerImg src={Logo} alt="Logo" />
-                <FooterCopyRightParagraph>© 2020 Startupz. All rights reserved.</FooterCopyRightParagraph>
-            </ImgContainer>
+            
+            <FooterCopyRightImg>
+                <FooterContainerImg onClick={handleFooterImgClick} src={Logo} alt="Logo" />
+                <FooterCopyRightParagraph>© 2020 Startupz.<br/>All rights reserved.</FooterCopyRightParagraph>
+            </FooterCopyRightImg>
+
         </FooterCopyRight>
-        <FooterCompanies>
+
+        <FooterWrapper>
+
+        <FooterInformation>
             <Title>Companies</Title>
-            <CompaniesTitle>Tolq</CompaniesTitle>
-            <CompaniesTitle>LegalSite</CompaniesTitle>
-            <CompaniesTitle>Codekeeper</CompaniesTitle>
-            <CompaniesTitle>Feedback Labs</CompaniesTitle>
-        </FooterCompanies>
-        <FooterContact>
+            <FooterCompaniesTitle>Tolq</FooterCompaniesTitle>
+            <FooterCompaniesTitle>LegalSite</FooterCompaniesTitle>
+            <FooterCompaniesTitle>Codekeeper</FooterCompaniesTitle>
+            <FooterCompaniesTitle>Feedback Labs</FooterCompaniesTitle>
+        </FooterInformation>
+
+        <FooterInformation>
             <Title>Contact</Title>
-            <ContactParagraph>World Trade Center - The Hague Prinses Margrietplantsoen 33 2595 AM The Hague The Netherlands</ContactParagraph>
-            <ContactSend>Send us an email</ContactSend>
-        </FooterContact>
-        <FooterFollowUs>
+            <FooterContactParagraph>World Trade Center - The Hague Prinses Margrietplantsoen 33 2595 AM The Hague The Netherlands</FooterContactParagraph>
+            <FooterContact>Send us an email</FooterContact>
+        </FooterInformation>
+
+        <FooterInformation>
             <Title>Follow us</Title>
-            <FollowMedia>T</FollowMedia>
-            <FollowMedia>L</FollowMedia>
-            <FollowMedia>I</FollowMedia>
-        </FooterFollowUs>
+            <FooterSocialMedia><FooterImg src={Twitter} alt="TwitterLogo" /></FooterSocialMedia>
+            <FooterSocialMedia><FooterImg src={Linkedin} alt="LinkedinLogo" /></FooterSocialMedia>
+            <FooterSocialMedia><FooterImg src={Instagram} alt="InstagramLogo" /></FooterSocialMedia>
+        </FooterInformation>
+
+        </FooterWrapper>
+
     </FooterContainer>
   )
 }

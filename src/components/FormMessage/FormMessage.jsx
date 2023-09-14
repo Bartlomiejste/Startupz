@@ -5,7 +5,7 @@ import { FormMessageContainer, FormMessageParagraph, FormMessageText, FormMessag
 
 const FormMessage = () => {
   return (
-    <FormMessageContainer>
+    <FormMessageContainer className='form-message-container'>
        <FormMessageText>
         <FormMessageTitle>
             Are you ready<br></br>to board this rocket ship?

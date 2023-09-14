@@ -18,7 +18,7 @@ export const HeaderContainer = styled.div`
    
 `;
 
-export const Img = styled.div`
+export const HeaderImg = styled.div`
   display: flex;
   align-self: flex-end;
 

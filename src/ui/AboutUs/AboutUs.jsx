@@ -88,6 +88,11 @@ export const AboutImg = styled.img`
     height: 88px;
     flex-shrink: 0;
 `
+export const ImgPicture = styled.img`
+    width: 75px;
+    height: 88px;
+    flex-shrink: 0;
+`
 
 export const AboutSteps = styled.div`
     display: flex;

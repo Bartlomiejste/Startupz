@@ -156,6 +156,7 @@ export const Button = styled.button`
     font-style: normal;
     font-weight: 700;
     line-height: 18px;
+    cursor: pointer;
 
 
     @media ${T_DOWN} {
