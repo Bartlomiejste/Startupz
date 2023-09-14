@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import {T_DOWN} from "../../utils/viewport";
+import { T_DOWN } from "../../utils/viewport";
 
 export const HeaderContainer = styled.div`
   display: flex;
@@ -14,8 +14,7 @@ export const HeaderContainer = styled.div`
     justify-content: center;
     margin-top: 150px;
     padding: 0 10px;
-   }
-   
+  }
 `;
 
 export const HeaderImg = styled.div`
@@ -24,33 +23,29 @@ export const HeaderImg = styled.div`
 
   @media ${T_DOWN} {
     align-self: center;
-   }
-
+  }
 `;
-
 
 export const ImgPicture = styled.img`
   @media ${T_DOWN} {
     margin-top: 25px;
     height: 200px;
-   }
-
+  }
 `;
 
 export const Typography = styled.div`
-  display:flex;
+  display: flex;
   flex-direction: column;
   width: 100%;
-  
+
   @media ${T_DOWN} {
     text-align: center;
     align-items: center;
   }
-
 `;
 
 export const Title = styled.div`
-  color: #3D4F5C;
+  color: #3d4f5c;
   font-size: 85px;
   font-style: normal;
   font-weight: 700;
@@ -64,7 +59,7 @@ export const Title = styled.div`
 `;
 
 export const Paragraph = styled.div`
-  color: var(--Primary-Orange, #FB8958);
+  color: var(--Primary-Orange, #fb8958);
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -90,15 +85,14 @@ export const Button = styled.button`
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 18px; 
+  line-height: 18px;
   letter-spacing: -0.18px;
-  background: #46B8C8;
+  background: #46b8c8;
   cursor: pointer;
 
   @media ${T_DOWN} {
     width: 150px;
     height: 25px;
     font-size: 12px;
-}
-
+  }
 `;

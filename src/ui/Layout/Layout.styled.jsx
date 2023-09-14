@@ -1,12 +1,11 @@
 import styled from "styled-components";
-import {L_DOWN, SM_UP} from "../../utils/viewport";
+import { L_DOWN, SM_UP } from "../../utils/viewport";
 
 export const MainContainer = styled.div`
-  width:100%;
-  height:100%;
+  width: 100%;
+  height: 100%;
   background-color: #000;
-  
-  `;
+`;
 
 export const PageContainer = styled.div`
   margin: 0 auto;

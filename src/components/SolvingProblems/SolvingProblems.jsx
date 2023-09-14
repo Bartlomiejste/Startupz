@@ -1,33 +1,41 @@
-import React from 'react'
-import { ReactComponent as Message } from '../../assets/SolvingProblems/Message.svg'
-import LeftThumb from '../../assets/SolvingProblems/LeftThumb.png';
-import RightThumb from '../../assets/SolvingProblems/RightThumb.png';
-import Person from '../../assets/SolvingProblems/Person.png';
-import { CenteredImage, Exit, Paragraph, SolvingMessage, SolvingProblemsContainer, SolvingText, Support, SvgContainer, Thumb } from '../../ui/SolvingProblems/SolvingProblemsUi';
-
+import React from "react";
+import { ReactComponent as Message } from "../../assets/SolvingProblems/Message.svg";
+import LeftThumb from "../../assets/SolvingProblems/LeftThumb.png";
+import RightThumb from "../../assets/SolvingProblems/RightThumb.png";
+import Person from "../../assets/SolvingProblems/Person.png";
+import {
+  CenteredImage,
+  Exit,
+  Paragraph,
+  SolvingMessage,
+  SolvingProblemsContainer,
+  SolvingText,
+  Support,
+  SvgContainer,
+  Thumb,
+} from "../../ui/SolvingProblems/SolvingProblems.styled.jsx";
 
 const SolvingProblems = () => {
+
   return (
-<SolvingProblemsContainer>
+    <SolvingProblemsContainer>
+      <SolvingMessage>
+        <Message />
+        <Exit>X</Exit>
+      </SolvingMessage>
 
-        <SolvingMessage>
-            <Message />
-            <Exit>X</Exit>
-        </SolvingMessage>
+      <SolvingText>
+        <Thumb>
+          <img src={LeftThumb} alt="Left Thumb" />
+        </Thumb>
 
-  <SolvingText>
+        <Paragraph>We love solving problems!</Paragraph>
 
-  <Thumb>
-      <img src={LeftThumb} alt="Left Thumb" />
-  </Thumb>
+        <Thumb>
+          <img src={RightThumb} alt="Right Thumb" />
+        </Thumb>
 
-    <Paragraph>We love solving problems!</Paragraph>
-
-  <Thumb>
-      <img src={RightThumb} alt="Right Thumb" />
-  </Thumb>
-
-  <Support>
+        <Support>
           <SvgContainer>
             <svg
               width="114"
@@ -40,13 +48,11 @@ const SolvingProblems = () => {
               <circle cx="57" cy="57" r="42" fill="#F5F5F5" />
             </svg>
             <CenteredImage src={Person} alt="Person" />
-          </SvgContainer>      
-  </Support>
+          </SvgContainer>
+        </Support>
+      </SolvingText>
+    </SolvingProblemsContainer>
+  );
+};
 
-  </SolvingText>
-
-</SolvingProblemsContainer>
-  )
-}
-
-export default SolvingProblems
+export default SolvingProblems;

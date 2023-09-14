@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import {T_DOWN} from "../../utils/viewport";
+import { T_DOWN } from "../../utils/viewport";
 
 export const NavigationContainer = styled.div`
   display: flex;
@@ -10,13 +10,11 @@ export const NavigationContainer = styled.div`
   padding: 0 20px;
 
   @media ${T_DOWN} {
-   flex-direction: column;
+    flex-direction: column;
   }
-
 `;
 
-export const LogoImg = styled.img`
-`;
+export const LogoImg = styled.img``;
 
 export const LogoContainer = styled.div`
   width: 199.486px;
@@ -25,22 +23,20 @@ export const LogoContainer = styled.div`
   margin-left: 120px;
 
   @media ${T_DOWN} {
-   margin-top: 50px;
-   margin-left: 0px;
-   }
-
+    margin-top: 50px;
+    margin-left: 0px;
+  }
 `;
 
 export const ButtonsContainer = styled.div`
   display: flex;
-  margin-right:120px;
+  margin-right: 120px;
 
   @media ${T_DOWN} {
     margin-top: 50px;
     flex-direction: column;
     margin-right: 0px;
-   }
-
+  }
 `;
 
 export const Button = styled.button`
@@ -49,7 +45,7 @@ export const Button = styled.button`
   flex-shrink: 0;
   border: none;
   background: none;
-  color: #3D4F5C;
+  color: #3d4f5c;
   line-height: 18px;
   letter-spacing: -0.18px;
   font-size: 18px;
@@ -57,10 +53,10 @@ export const Button = styled.button`
   font-style: normal;
 
   &:hover {
-  border-radius: 32.5px;
-  border: 1px solid var(--Complementary-Green, #46B8C8);
-  color: var(--Complementary-Green, #46B8C8);
-  font-weight: 700;
-  cursor: pointer;
+    border-radius: 32.5px;
+    border: 1px solid var(--Complementary-Green, #46b8c8);
+    color: var(--Complementary-Green, #46b8c8);
+    font-weight: 700;
+    cursor: pointer;
   }
 `;
